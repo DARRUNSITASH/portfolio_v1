@@ -78,10 +78,15 @@ const Hero = () => {
               <Mail size={20} />
               Get In Touch
             </button>
-            <button className="border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg font-medium hover:bg-blue-600 dark:hover:bg-blue-500 hover:text-white transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-1">
+            <a 
+              href="/DARRUN RESUME.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg font-medium hover:bg-blue-600 dark:hover:bg-blue-500 hover:text-white transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-1"
+            >
               <Download size={20} />
               Download Resume
-            </button>
+            </a>
           </div>
 
         </div>
