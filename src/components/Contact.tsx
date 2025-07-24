@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Calendar, User, Globe } from 'lucide-react';
+import { Mail, Phone, MapPin, Calendar, User, Globe, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   const personalDetails = [
@@ -54,6 +54,23 @@ const Contact = () => {
                     className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
                     +91 9566612510
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-4">
+                <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
+                  <Linkedin className="text-blue-600 dark:text-blue-400" size={24} />
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900 dark:text-gray-100">LinkedIn</p>
+                  <a 
+                    href="https://www.linkedin.com/in/darrunsitash-m?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    linkedin.com/in/darrunsitash-m
                   </a>
                 </div>
               </div>
